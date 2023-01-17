@@ -1,0 +1,29 @@
+update
+
+> force_install_dir E:\GamesAndStuff\csgoSERVER\csgoserver
+> login anonymous
+> app_update 740
+> app_update 740 validate
+
+
+files
+> ~ start.bat
+> ~\csgo\cfg\server.cfg
+> ~\csgo\cfg\autoexec.cfg
+
+
+commands
+
+> exec nade
+> exec gamemode_competitive2v2 -> then load map with 'map'
+
+mods
+									// install in this order!
+> https://www.sourcemod.net/downloads.php?branch=stable			// source mod
+> http://sourcemm.net/downloads.php?branch=stable			// meta mod
+> https://ptah.zizt.ru/							// ptah mod
+> https://github.com/kgns/gloves/releases				// gloves mod
+> https://github.com/kgns/weapons/releases				// weapons mod
+
+
+
